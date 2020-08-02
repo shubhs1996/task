@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "testApp",
-    "slug": "testApp",
+    "name": "my-app",
+    "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,10 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.practicle.visitorManagment"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.practicle.visitorManagment"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
